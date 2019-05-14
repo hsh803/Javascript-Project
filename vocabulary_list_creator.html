@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Add Word</title>
+    <link rel="stylesheet" href="vocabulary_list_creator_test.css">
+    <script type="text/javascript" src="vocabulary_list_creator_test.js"></script>
+  </head>
+  <body>
+     <div id="box1">
+
+     <h3>Word</h3>
+
+      <input id="word" type="text">
+
+      <h3>Definition</h3>
+      <input id="definition" type="text">
+
+      <h3>Example</h3>
+      <input id="example" type="text">
+
+      <input onclick="addWord()" type="submit" value="Add">
+      <input onclick="searchWrap()" type="button" value=" Go to Search">
+
+      <div id="wordli"></div>
+
+      </div>
+
+      <div id="box2">
+
+      <input id="search" type="text">
+
+      <input onclick="searchWord()" type="submit" value="Search">
+      <input onclick="addWrap()" type="button" value="Go to Add">
+
+      <div id="searchli"></div>
+
+      </div>
+
+
+
+
+
+
+    </body>
+</html>

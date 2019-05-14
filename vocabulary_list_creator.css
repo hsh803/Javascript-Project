@@ -1,0 +1,22 @@
+p {
+  positioin: relative;
+  padding-left: 35px;
+}
+
+.close {
+  left: 10px;
+  position: absolute;
+  padding: 2px;
+}
+
+.close:hover{
+  cursor: pointer;
+}
+
+#box2 {
+  display: none;
+}
+
+#searchli {
+  padding: 10px;
+}
