@@ -24,7 +24,7 @@ function addWord(){
   // structure to show values
   let text;
   for (i = 0 ; i < wordList.length ; i ++){
-    text = wordList[i].join("\xa0\xa0|\xa0\xa0");
+    text = wordList[i].join("\xa0\xa0\xa0|\xa0\xa0\xa0");
   }
 
   let li = document.createElement("p");
