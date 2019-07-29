@@ -26,17 +26,21 @@ function addWord(){
   for (i = 0 ; i < wordList.length ; i ++){
     text = wordList[i].join("\xa0\xa0\xa0|\xa0\xa0\xa0");
   }
-
+  
+    
   let li = document.createElement("p");
   let liText = document.createTextNode(text);
   li.appendChild(liText);
   document.getElementById('wordli').appendChild(li);
+  
   // create x mark
   let close = document.createElement("span");
   let closeText = document.createTextNode("\u00D7");
   close.className = "close";
   close.appendChild(closeText);
   li.appendChild(close);
+
+ 
   // remove words from list and array
   let remove = document.getElementsByClassName('close');
   for (n = 0; n < remove.length; n++){
@@ -66,10 +70,10 @@ function addWrap(){
 // search function
 function searchWord(){
 let search = document.getElementById("search").value;
-
+search = search.toLowerCase()
 for (m = 0; m < wordList.length; m++){
   if (search === wordList[m][0]){
-    document.getElementById("searchli").innerHTML = wordList[m].join("\xa0\xa0|\xa0\xa0");
+    document.getElementById("searchli").innerHTML = wordList[m].join("\xa0\xa0\xa0|\xa0\xa0\xa0");
     document.getElementById("search").value = "";
     return;
 }
