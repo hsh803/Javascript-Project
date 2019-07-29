@@ -1,12 +1,16 @@
+div {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
 p {
-  positioin: relative;
-  padding-left: 35px;
+  position: relative;
+  padding-left: 30px;
 }
 
 .close {
-  left: 10px;
+  left: 1%;
   position: absolute;
-  padding: 2px;
 }
 
 .close:hover{
@@ -19,4 +23,8 @@ p {
 
 #searchli {
   padding: 10px;
+}
+
+#wordli{
+  padding-top: 10px;
 }
