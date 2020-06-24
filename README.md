@@ -1,6 +1,8 @@
 # Vocabulary note
-Welcome to my vocabulary list application! <br>
-You can add, remove and search your own words in the list. <br>
-Click <a href="https://codepen.io/hsh803/pen/PggNZN">here</a> to see the code and test or <br>
-<a href="https://hsh803.github.io/vocabulary-list-app/">here</a> to go to application on the web.
+
+1. Languages: HTML, CSS, Javascript
+2. Tools: Visual Design Code
+3. Description: With this application, you can add, edit and search vocabulary in your own note.
+4. <a href="https://hsh803.github.io/vocabulary-note-js">Link</a> to the application
+
 
